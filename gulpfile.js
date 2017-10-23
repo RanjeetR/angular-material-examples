@@ -3,7 +3,7 @@ connect = require('gulp-connect');
 
 gulp.task('connect', function() {
 connect.server({
-  root: 'app',
+  root: 'project',
   livereload: true
 });
 });
